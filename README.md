@@ -63,6 +63,8 @@ Thanks to all [contributors](https://github.com/offense360/awesome-winows-redtea
 
 - [ImproHound](https://github.com/improsec/ImproHound) - Identify the attack paths in BloodHound breaking your AD tiering. ImproHound is a dotnet standalone win x64 exe with GUI. To use ImproHound, you must run SharpHound to collect the necessary data from the AD.
 
+- [GoodHound](https://github.com/idnahacks/GoodHound) - Uses Sharphound, Bloodhound and Neo4j to produce an actionable list of attack paths for targeted remediation.
+
 - [BloodHound.py](https://github.com/fox-it/BloodHound.py) - BloodHound.py is a Python based ingestor for [BloodHound](https://github.com/BloodHoundAD/BloodHound), based on [Impacket](https://github.com/CoreSecurity/impacket/).
 
 
