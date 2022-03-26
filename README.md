@@ -52,7 +52,7 @@ Thanks to all [contributors](https://github.com/offense360/awesome-winows-redtea
 
 ### Unclassified
 
-**[`^        back to top        ^`](#)**
+**[`^        back to top        ^`](#)**
 
 
 - [BloodHound](https://github.com/BloodHoundAD/BloodHound) - BloodHound is an Active Directory (AD) reconnaissance tool that can reveal hidden relationships and identify attack paths within an AD environment. , [Document](https://bloodhound.readthedocs.io/en/latest/index.html)
@@ -67,10 +67,11 @@ Thanks to all [contributors](https://github.com/offense360/awesome-winows-redtea
 
 - [BloodHound.py](https://github.com/fox-it/BloodHound.py) - BloodHound.py is a Python based ingestor for [BloodHound](https://github.com/BloodHoundAD/BloodHound), based on [Impacket](https://github.com/CoreSecurity/impacket/).
 
+- [AD Enum](https://github.com/SecuProject/ADenum) - AD Enum is a pentesting tool that allows to find misconfiguration through the the protocol LDAP and exploit some of those weaknesses with kerberos.
 
 ### Powershell
 
-**[`^        back to top        ^`](#)**
+**[`^        back to top        ^`](#)**
 
 
 - [Access to Memory (AtoM)](https://www.accesstomemory.org/) - A lightweight tool to quickly extract valuable information from the Active Directory environment for both attacking and defending. , [Source Code](https://github.com/dev-2null/ADCollector)) `C#`
@@ -79,7 +80,7 @@ Thanks to all [contributors](https://github.com/offense360/awesome-winows-redtea
 
 ### Csharp
 
-**[`^        back to top        ^`](#)**
+**[`^        back to top        ^`](#)**
 
 
 - [ADCollector](https://github.com/dev-2null/ADCollector) - A lightweight tool to quickly extract valuable information from the Active Directory environment for both attacking and defending. , [Source Code](https://github.com/dev-2null/ADCollector) `C#`
@@ -87,13 +88,15 @@ Thanks to all [contributors](https://github.com/offense360/awesome-winows-redtea
 
 ### Articles
 
-**[`^        back to top        ^`](#)**
+**[`^        back to top        ^`](#)**
 
 
 - [awesome-bloodhound](https://github.com/chryzsh/awesome-bloodhound) - A curated list of awesome BloodhoundAD resources
 - [Easy Domain Enumeration with ADSI](https://dev-2null.github.io/Easy-Domain-Enumeration-with-ADSI/)
 - [Windows Enumeration](https://nored0x.github.io/red-teaming/windows-enumeration/) by NoRed0x
 - [SPN scan](https://www.codetd.com/en/article/7383878/) by codetd
+- [Domain Enumeration with Active Directory PowerShell Module](https://medium.com/r3d-buck3t/domain-enumeration-with-active-directory-powershell-module-7ce4fcfe91d3) by Nairuz Abulhul
+- [Offensive WMI - The Basics (Part 1)](https://0xinfection.github.io/posts/wmi-basics-part-1/) by 0xinfection
 
 
 ## Windows Privilege Escalation
@@ -103,14 +106,14 @@ Thanks to all [contributors](https://github.com/offense360/awesome-winows-redtea
 
 ### Unclassified
 
-**[`^        back to top        ^`](#)**
+**[`^        back to top        ^`](#)**
 
 
 - [Impacket](https://github.com/p3nt4/impacket/) - Impacket is a collection of Python classes for working with network protocols. Impacket is focused on providing low-level programmatic access to the packets and for some protocols (e.g. SMB1-3 and MSRPC) the protocol implementation itself. References [https://www.secureauth.com/labs/open-source-tools/impacket/](https://www.secureauth.com/labs/open-source-tools/impacket/)
 
-- [BloodyAD](https://github.com/CravateRouge/bloodyAD) - BloodyAD is an Active Directory Privilege Escalation Framework, it can be used manually using `bloodyAD.py` or automatically by combining `pathgen.py` and `autobloody.py`.   This framework supports NTLM (with password or NTLM hashes) and Kerberos authentication and binds to LDAP/LDAPS/SAMR services of a domain controller to obtain AD privesc. It is designed to be used transparently with a SOCKS proxy.  
+- [BloodyAD](https://github.com/CravateRouge/bloodyAD) - BloodyAD is an Active Directory Privilege Escalation Framework, it can be used manually using `bloodyAD.py` or automatically by combining `pathgen.py` and `autobloody.py`.   This framework supports NTLM (with password or NTLM hashes) and Kerberos authentication and binds to LDAP/LDAPS/SAMR services of a domain controller to obtain AD privesc. It is designed to be used transparently with a SOCKS proxy.  
 
-- [Krbrelayx](https://github.com/dirkjanm/krbrelayx) - Toolkit for abusing Kerberos. Requires [impacket](https://github.com/SecureAuthCorp/impacket), [ldap3](https://github.com/cannatag/ldap3) and dnspython to function. It is recommended to install impacket from git directly to have the latest version available.  [Document](https://dirkjanm.io/krbrelayx-unconstrained-delegation-abuse-toolkit/)
+- [Krbrelayx](https://github.com/dirkjanm/krbrelayx) - Toolkit for abusing Kerberos. Requires [impacket](https://github.com/SecureAuthCorp/impacket), [ldap3](https://github.com/cannatag/ldap3) and dnspython to function. It is recommended to install impacket from git directly to have the latest version available.  [Document](https://dirkjanm.io/krbrelayx-unconstrained-delegation-abuse-toolkit/)
 
 - [BeRoot](https://github.com/AlessandroZ/BeRoot) - BeRoot Project is a post exploitation tool to check common misconfigurations to find a way to escalate our privilege.  
 
@@ -119,7 +122,7 @@ Thanks to all [contributors](https://github.com/offense360/awesome-winows-redtea
 
 ### Articles - Guide and Checklists
 
-**[`^        back to top        ^`](#)**
+**[`^        back to top        ^`](#)**
 
 
 - [Windows Privilege Escalation Fundamentals by fuzzysecurity](http://www.fuzzysecurity.com/tutorials/16.html)
@@ -138,10 +141,10 @@ Thanks to all [contributors](https://github.com/offense360/awesome-winows-redtea
 
 ### Windows
 
-**[`^        back to top        ^`](#)**
+**[`^        back to top        ^`](#)**
 
 
-- [Mimikatz](https://github.com/gentilkiwi/mimikatz/) - A little tool to play with Windows security  [Document](https://blog.gentilkiwi.com/mimikatz) 
+- [Mimikatz](https://github.com/gentilkiwi/mimikatz/) - A little tool to play with Windows security  [Document](https://blog.gentilkiwi.com/mimikatz) 
 
 - [UACME](https://github.com/hfiref0x/UACME) - Defeating Windows User Account Control
 
@@ -149,10 +152,12 @@ Thanks to all [contributors](https://github.com/offense360/awesome-winows-redtea
 
 - [PowerHub](https://github.com/AdrianVollmer/PowerHub/) - PowerHub is a convenient post exploitation tool for PowerShell which aids a pentester in transferring data, in particular code which may get flagged by endpoint protection. , [Document](https://github.com/AdrianVollmer/PowerHub/wiki/)
 
+- [SharpSploit](https://github.com/cobbr/SharpSploit) - SharpSploit is a .NET post-exploitation library written in C#
+
 
 ### Multi Platform
 
-**[`^        back to top        ^`](#)**
+**[`^        back to top        ^`](#)**
 
 
 - [Mythic](https://github.com/its-a-feature/Mythic) - A cross-platform, post-exploit, red teaming framework built with python3, docker, docker-compose, and a web browser UI.  
@@ -161,14 +166,14 @@ Thanks to all [contributors](https://github.com/offense360/awesome-winows-redtea
 
 ### Unclassified
 
-**[`^        back to top        ^`](#)**
+**[`^        back to top        ^`](#)**
 
 
 - [ibombshell - Dynamic Remote Shell](https://github.com/Telefonica/ibombshell/) - ibombshell is a tool written in Powershell that allows you to have a prompt at any time with post-exploitation functionalities (and in some cases exploitation).
 
 ### Articles - Guide and Checklists
 
-**[`^        back to top        ^`](#)**
+**[`^        back to top        ^`](#)**
 
 
 - [How To Attack Kerberos 101](https://m0chan.github.io/2019/07/31/How-To-Attack-Kerberos-101.html) by m0chan
@@ -183,7 +188,7 @@ Thanks to all [contributors](https://github.com/offense360/awesome-winows-redtea
 
 ### Multi Platform
 
-**[`^        back to top        ^`](#)**
+**[`^        back to top        ^`](#)**
 
 
 - [PoshC2](https://github.com/nettitude/PoshC2) - PoshC2 is a proxy aware C2 framework used to aid penetration testers with red teaming, post-exploitation and lateral movement. [Document](https://poshc2.readthedocs.io/en/latest/index.html)
@@ -197,7 +202,7 @@ Thanks to all [contributors](https://github.com/offense360/awesome-winows-redtea
 
 ### Windows
 
-**[`^        back to top        ^`](#)**
+**[`^        back to top        ^`](#)**
 
 
 - [Covenant](https://github.com/cobbr/Covenant) - Covenant is a .NET command and control framework and web application that aims to highlight the attack surface of .NET, make the use of offensive .NET tradecraft easier, and serve as a collaborative command and control platform for red teamers. [Document](https://github.com/cobbr/Covenant/wiki)  
@@ -207,7 +212,7 @@ Thanks to all [contributors](https://github.com/offense360/awesome-winows-redtea
 
 ### Unclassified
 
-**[`^        back to top        ^`](#)**
+**[`^        back to top        ^`](#)**
 
 
 - [SILENTTRINITY](https://github.com/byt3bl33d3r/SILENTTRINITY/) - SILENTTRINITY is modern, asynchronous, multiplayer & multiserver C2/post-exploitation framework powered by Python 3 and .NETs DLR. [Document](https://github.com/byt3bl33d3r/SILENTTRINITY/wiki/) by [Defensive Origins](https://defensiveorigins.com/)  
@@ -224,7 +229,7 @@ Thanks to all [contributors](https://github.com/offense360/awesome-winows-redtea
 
 ### Multi Platform
 
-**[`^        back to top        ^`](#)**
+**[`^        back to top        ^`](#)**
 
 
 - [Atomic Red Team](https://github.com/redcanaryco/atomic-red-team) - Atomic Red Team™ is library of tests mapped to the [MITRE ATT&CK® framework](https://attack.mitre.org/). Security teams can use Atomic Red Team to quickly, portably, and reproducibly test their environments.
@@ -234,7 +239,7 @@ Thanks to all [contributors](https://github.com/offense360/awesome-winows-redtea
 
 ### AWS
 
-**[`^        back to top        ^`](#)**
+**[`^        back to top        ^`](#)**
 
 
 - [stratus-red-team](https://github.com/DataDog/stratus-red-team) - Stratus Red Team is ["Atomic Red Team™"](https://github.com/redcanaryco/atomic-red-team) for the cloud, allowing to emulate offensive attack techniques in a granular and self-contained manner. by datadog
@@ -242,7 +247,7 @@ Thanks to all [contributors](https://github.com/offense360/awesome-winows-redtea
 
 ### Azure
 
-**[`^        back to top        ^`](#)**
+**[`^        back to top        ^`](#)**
 
 
 - [DO-LAB](https://github.com/DefensiveOrigins/DO-LAB) - Defensive Origins Lab Environment is used within the Defensive Origins courses provided by Defensive Origins, AntiSyphon Security, and Black Hills Information Security. 
@@ -251,10 +256,12 @@ Thanks to all [contributors](https://github.com/offense360/awesome-winows-redtea
 
 - [Blacksmith](https://github.com/OTRF/Blacksmith) - The Blacksmith project focuses on providing dynamic easy-to-use templates for security researches to model and provision resources to automatically deploy applications and small networks in the cloud. It currently leverages [AWS CloudFormation](https://aws.amazon.com/cloudformation/) and [Microsoft Azure Resource Manager (ARM)](https://github.com/OTRF/Blacksmith/blob/master) templates to implement infrastructure as code for cloud solutions.
 
+- [Terraform-Azure](https://github.com/jakewalsh90/Terraform-Azure) - snippets, useful bits, samples, labs and more. All deployable in small instances with ready to go code. with github actions for deployment. , [Document](https://jakewalsh.co.uk/introducing-my-terraform-azure-base-lab-environment/)
+
 
 ### Active Dirctory
 
-**[`^        back to top        ^`](#)**
+**[`^        back to top        ^`](#)**
 
 
 - [PurpleSharp](https://github.com/mvelazc0/PurpleSharp) - PurpleSharp is a C# adversary simulation tool that executes adversary techniques with the purpose of generating attack telemetry in monitored Windows environments. , [Document](https://www.purplesharp.com/en/latest/index.html#) 
@@ -267,12 +274,11 @@ Thanks to all [contributors](https://github.com/offense360/awesome-winows-redtea
 
 ### Articles
 
-**[`^        back to top        ^`](#)**
+**[`^        back to top        ^`](#)**
 
 
 - [Automating the provisioning of Active Directory labs in Azure](https://blog.christophetd.fr/automating-the-provisioning-of-active-directory-labs-in-azure/)
 - [Introducing Stratus Red Team, an Adversary Emulation Tool for the Cloud](https://blog.christophetd.fr/introducing-stratus-red-team-an-adversary-emulation-tool-for-the-cloud/)
-- [A-Z Index of Windows CMD commands](https://ss64.com/nt/)
 - [Building an Active Directory Lab - Part 1](https://blog.spookysec.net/ad-lab-1/)
 
 
@@ -281,7 +287,11 @@ Thanks to all [contributors](https://github.com/offense360/awesome-winows-redtea
 <!-- BEGIN articles LIST -->
 
 
-**[`^        back to top        ^`](#)**
+**[`^        back to top        ^`](#)**
 
 
+- [A-Z Index of Windows CMD commands](https://ss64.com/nt/)
 - [Windows & Active Directory Exploitation Cheat Sheet and Command Reference](https://casvancooten.com/posts/2020/11/windows-active-directory-exploitation-cheat-sheet-and-command-reference/)
+- [Active-Directory-Awesome](https://github.com/HI0U/Active-Directory-Awesome/blob/beta/Active-Directory.md)
+- [Offensive Active Directory](https://github.com/thecybermafia/OffensiveActiveDirectory)
+- [Active Directory Exploitation Cheat Sheet](https://github.com/S1ckB0y1337/Active-Directory-Exploitation-Cheat-Sheet)
