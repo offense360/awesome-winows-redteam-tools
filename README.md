@@ -69,6 +69,8 @@ Thanks to all [contributors](https://github.com/offense360/awesome-winows-redtea
 
 - [AD Enum](https://github.com/SecuProject/ADenum) - AD Enum is a pentesting tool that allows to find misconfiguration through the the protocol LDAP and exploit some of those weaknesses with kerberos.
 
+- [Stormspotter](https://github.com/Azure/Stormspotter) - Stormspotter creates an “attack graph” of the resources in an Azure subscription. It enables red teams and pentesters to visualize the attack surface and pivot opportunities within a tenant, and supercharges your defenders to quickly orient and prioritize incident response work.
+
 ### Powershell
 
 **[`^        back to top        ^`](#)**
@@ -118,6 +120,8 @@ Thanks to all [contributors](https://github.com/offense360/awesome-winows-redtea
 - [BeRoot](https://github.com/AlessandroZ/BeRoot) - BeRoot Project is a post exploitation tool to check common misconfigurations to find a way to escalate our privilege.  
 
 - [Powerview](https://github.com/the-useless-one/pywerview) - A (partial) Python rewriting of [PowerSploit](https://github.com/PowerShellMafia/PowerSploit)'s [PowerView](https://github.com/PowerShellMafia/PowerSploit/tree/master/Recon).
+
+- [Get-bADpasswords](https://github.com/improsec/Get-bADpasswords) - Get insights into the actual strength and quality of passwords in Active Directory.
 
 
 ### Articles - Guide and Checklists
@@ -258,6 +262,8 @@ Thanks to all [contributors](https://github.com/offense360/awesome-winows-redtea
 
 - [Terraform-Azure](https://github.com/jakewalsh90/Terraform-Azure) - snippets, useful bits, samples, labs and more. All deployable in small instances with ready to go code. with github actions for deployment. , [Document](https://jakewalsh.co.uk/introducing-my-terraform-azure-base-lab-environment/)
 
+- [PurpleCloud](https://github.com/iknowjason/PurpleCloud) - A little tool to play with Azure Identity - Azure Active Directory lab creation tool
+
 
 ### Active Dirctory
 
@@ -271,6 +277,9 @@ Thanks to all [contributors](https://github.com/offense360/awesome-winows-redtea
 - [ActiveDirectory Lab](https://github.com/cfalta/activedirectory-lab/) - Terraform config to spin up a domain controller and some member servers in azure.  
 
 - [Purple Teaming Attack & Hunt Lab - TerraForm](https://github.com/DefensiveOrigins/APT-Lab-Terraform) - Applied Purple Teaming Threat Optics Lab - Azure TerraForm by [Defensive Origins](https://defensiveorigins.com/)
+
+- [BadBlood](https://github.com/davidprowe/BadBlood) - BadBlood by Secframe fills a Microsoft Active Directory Domain with a structure and thousands of objects. The output of the tool is a domain similar to a domain in the real world.
+
 
 ### Articles
 
@@ -295,3 +304,4 @@ Thanks to all [contributors](https://github.com/offense360/awesome-winows-redtea
 - [Active-Directory-Awesome](https://github.com/HI0U/Active-Directory-Awesome/blob/beta/Active-Directory.md)
 - [Offensive Active Directory](https://github.com/thecybermafia/OffensiveActiveDirectory)
 - [Active Directory Exploitation Cheat Sheet](https://github.com/S1ckB0y1337/Active-Directory-Exploitation-Cheat-Sheet)
+- [Active Directory Methodology](https://github.com/carlospolop/hacktricks/tree/master/windows/active-directory-methodology)
