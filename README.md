@@ -87,6 +87,8 @@ Thanks to all [contributors](https://github.com/offense360/awesome-winows-redtea
 
 - [ADCollector](https://github.com/dev-2null/ADCollector) - A lightweight tool to quickly extract valuable information from the Active Directory environment for both attacking and defending. , [Source Code](https://github.com/dev-2null/ADCollector) `C#`
 
+- [Group3r](https://github.com/Group3r/Group3r) -  Group3r is a tool for pentesters and red teamers to rapidly enumerate relevant settings in AD Group Policy, and to identify exploitable misconfigurations in same.
+
 
 ### Articles
 
