@@ -71,6 +71,9 @@ Thanks to all [contributors](https://github.com/offense360/awesome-winows-redtea
 
 - [Stormspotter](https://github.com/Azure/Stormspotter) - Stormspotter creates an “attack graph” of the resources in an Azure subscription. It enables red teams and pentesters to visualize the attack surface and pivot opportunities within a tenant, and supercharges your defenders to quickly orient and prioritize incident response work.
 
+- [Certipy](https://github.com/ly4k/Certipy) - Tool for Active Directory Certificate Services(ADCS) enumeration and abuse. 
+
+
 ### Powershell
 
 **[`^        back to top        ^`](#)**
@@ -166,7 +169,7 @@ Thanks to all [contributors](https://github.com/offense360/awesome-winows-redtea
 **[`^        back to top        ^`](#)**
 
 
-- [Mythic](https://github.com/its-a-feature/Mythic) - A cross-platform, post-exploit, red teaming framework built with python3, docker, docker-compose, and a web browser UI.  
+- [Mythic](https://github.com/its-a-feature/Mythic) - A cross-platform, post-exploit, red teaming framework built with python3, docker, docker-compose, and a web browser UI. [Document](https://docs.mythic-c2.net/)
 
 - [Merlin](https://github.com/Ne0nd0g/merlin) - Merlin is a cross-platform post-exploitation Command & Control server and agent written in Go. [Document](https://merlin-c2.readthedocs.io/en/latest/)
 
@@ -214,6 +217,8 @@ Thanks to all [contributors](https://github.com/offense360/awesome-winows-redtea
 - [Covenant](https://github.com/cobbr/Covenant) - Covenant is a .NET command and control framework and web application that aims to highlight the attack surface of .NET, make the use of offensive .NET tradecraft easier, and serve as a collaborative command and control platform for red teamers. [Document](https://github.com/cobbr/Covenant/wiki)  
 
 - [Octops](https://github.com/mhaskar/Octopus) - Octopus is an open source, pre-operation C2 server based on python which can control an Octopus powershell agent through HTTP/S.
+
+- [AtlasC2](https://github.com/Gr1mmie/AtlasC2) - C# C2 Framework centered around Stage 1 operations. [Document](https://github.com/Gr1mmie/AtlasC2/wiki)
 
 
 ### Unclassified
